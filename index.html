@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>BriteCore HTML design</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark indigo">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">BriteCore</a>
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Policies</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Claims</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#"><strong>Contacts</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Reports</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Lines</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Settings</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Workflow</a>
+            </li>
+        </ul>
+        <!-- Links -->
+    </div>
+    <!-- Collapsible content -->
+</nav>
+<!--/.Navbar-->
+               
+
+<div class="row">
+    <div class="col">
+        <!-- Nav tabs -->
+        <div class="tabs-wrapper"> 
+            <ul class="nav classic-tabs tabs-cyan" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link waves-light active" data-toggle="tab" href="#panel51" role="tab">Agencies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-light" data-toggle="tab" href="#panel52" role="tab">Agents</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-light" data-toggle="tab" href="#panel53" role="tab">Map</a>
+                </li>
+                
+            </ul>
+        </div>
+
+        <!-- Tab panels -->
+        <div class="tab-content card">
+
+            <!--Panel 1-->
+            <div class="tab-pane fade in show active" id="panel51" role="tabpanel">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-6">
+                        <!-- Search form -->
+                        <form class="form-inline">
+                            <input class="form-control w-100" type="text" placeholder="Search for an agency" aria-label="Search">
+                        </form>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6">
+                        <ul class="list-group">
+                          <li class="list-group-item"><a data-toggle="modal" href="#exampleModal">Acrisure L.L.C.</a></li>
+                          <li class="list-group-item">Aon PLC</li>
+                          <li class="list-group-item">Arthur J. Gallagher & Co.</li>
+                          <li class="list-group-item">Assured Partners Inc.</li>
+                          <li class="list-group-item">BB&T Insurance Series Co. </li>
+                          <li class="list-group-item">Brown & Brown Inc. </li>
+                          <li class="list-group-item">Hub International Ltd. </li>
+                          <li class="list-group-item">Lockton Cos. L.L.C. </li>
+                          <li class="list-group-item">Marsh & McLennan Cos. Inc. </li>
+                        </ul>
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <div class="col-sm-6">
+                        <button type="button" class="btn btn-default">Add Agency</button>
+                    </div>
+                  </div>
+
+                  <br/><br/>
+                </div>
+                
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-fluid" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Acrisure L.L.C.</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                            <img src="img/modal.png"/>
+                            </div>
+                            <!--
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.Panel 1-->
+
+            <!--Panel 2-->
+            <div class="tab-pane fade" id="panel52" role="tabpanel">
+                <p>Agents screen</p>
+
+            </div>
+            <!--/.Panel 2-->
+
+            <!--Panel 3-->
+            <div class="tab-pane fade" id="panel53" role="tabpanel">
+                <p>Map screen</p>
+
+            </div>
+            <!--/.Panel 3-->
+
+        </div>
+
+    </div>
+</div>
+
+
+   
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>
